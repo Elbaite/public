@@ -139,6 +139,28 @@ How to operate
 Aditional Endpoints
 ===================
 
+- List all your offers
+```
+  [GET] /offers
+  Response:
+    {
+      res:
+        [
+          {
+            token_name: "Bitcoin",
+            token_id: "bitcoin",
+            terminated: false,
+            price_per_unit: 123.456789,
+            offer_id: 90,
+            offer_amount: 10,
+            is_deleted: false,
+            created: "2019-06-07T00:06:27.796876"
+          },
+          ...
+        ]         
+    }
+```
+
 - Edit the price of your listing
 ```
  [POST] /edit_offer
