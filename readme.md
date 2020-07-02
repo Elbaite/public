@@ -55,7 +55,7 @@ How to operate
    {
      wallet: %WALLET_ADDRESS%, #Optional for Bitcoin
      token_id: %TOKEN_ID%, #Received from [GET] /tokens 
-     unit_price: %UNIT_PRICE%,
+     price_per_unit: %PRICE_PER_UNIT%,
      amount: %AMOUNT%
    }
 
@@ -63,7 +63,7 @@ How to operate
    {
      wallet: "0xC0D3De126F9c073E81540C062Ad0256ECBA63325",
      token_id: "0x0",
-     unit_price: 253.62198,
+     price_per_unit: 253.62198,
      amount: 10
    }
 
